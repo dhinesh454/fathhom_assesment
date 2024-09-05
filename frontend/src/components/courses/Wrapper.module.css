@@ -1,0 +1,15 @@
+.wrapper{
+    background-image: url('../../store/images/awrapper.webp');
+    background-position:cover;
+    background-attachment: fixed;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    align-items: center; /* Center items vertically */
+    padding: 40px 20px;
+    gap: 20px; /* Add space between items */
+}
+
+
+

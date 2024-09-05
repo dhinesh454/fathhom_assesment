@@ -1,0 +1,16 @@
+.health{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card{
+    width: 35rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+

@@ -1,0 +1,94 @@
+.background{
+    background-image: url('/public/images//back.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 45vh;
+    border-radius: 5px;
+}
+
+.background h1 {
+    color: rgb(7, 213, 227);
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    font-weight: 800;
+    font-style: italic;
+
+
+    
+}
+
+/* courses */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .star {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .detail {
+    margin-top: 20px;
+  }
+  
+  .dimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .dimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 10px;
+  }
+  
+  .para {
+    margin-left: 10px;
+  }
+  
+  .button {
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+  }
+  
+
+  @media (max-width: 768px) {
+    .background {
+      height: 40vh; /* Adjust the height for smaller screens */
+      background-position: top;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .background {
+      height: 30vh; /* Further adjustment for very small screens */
+      background-position: top;
+    }
+
+   
+  }

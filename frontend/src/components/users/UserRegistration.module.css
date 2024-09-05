@@ -1,0 +1,34 @@
+.background {
+    background-image: url('../../store/images/bg.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    align-items: center; justify-content: center;
+    border: none;
+    margin:10rem auto;
+    
+  }
+
+ 
+  .button{
+    width: 25rem auto;
+  }
+  .toogle:hover{
+
+  font-style: italic;
+ 
+  }
+
+  label{
+    color: rgb(45, 113, 113);
+  }
+
